@@ -54,6 +54,7 @@ for i in range(131):
     rang=len(run_on_ball[i])
 x1=[]
 y1=[]
+plt1.title('SRH')
 for i in range(120):
     data=run_on_ball[i]
     model=SimpleExpSmoothing(data)
