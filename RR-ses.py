@@ -24,7 +24,7 @@ all_x = []
 all_y = []
 bno=0
 for row in rows:
-    if(row[2]=="Sunrisers Hyderabad"):
+    if(row[2]=="Rajasthan Royals"):
         if(prev==row[0]):
             temp+=int(row[17])
         else:
@@ -62,4 +62,4 @@ for i in range(120):
     y1.append(model_fit.predict(len(data),len(data)))
 plt1.plot(x1,y1)
 print(y1[len(y1)-1])
-plt1.savefig('SRH-predict-SES.jpg')
+plt1.savefig('RR-predict-SES.jpg')
